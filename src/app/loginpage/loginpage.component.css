@@ -15,11 +15,37 @@ h2 {
     font-weight: 700;
 }
 
-.left .right {
-    padding: 1rem;
+.left-side {
+    float: left;
+    width: 60%;
+}
+
+.right-side {
+    float: right;
+    width: 40%;
+    margin-left: 10px;
+}
+
+.login-cage {
+    outline: auto;
+    padding: 1.5rem;
 }
 
 .split-screen {
     display: flex;
+    width: 100%;
+    padding: 2rem;
 }
 
+.input-container {
+    margin-bottom: 2rem;
+}
+
+.right-side,
+.left-side {
+    padding-top: 3rem;
+}
+
+.form-group {
+    padding: 0.5rem;
+}
